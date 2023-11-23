@@ -1,7 +1,6 @@
 import React from "react";
 
 //importing photo files
-import mind from ".././assets/img/mind.png";
 import power from ".././assets/img/power.jpg";
 import faith from ".././assets/img/faith.jpg";
 import prayer from ".././assets/img/prayer.jpg";
@@ -248,45 +247,114 @@ function HomeScreen() {
 
       {/* main */}
       <main id="main">
-        <header id="about" class="about">
+        {/* Testimony cards */}
+        <section id="pricing" className="pricing">
           <div className="container">
-            <div className="row content">
-              <div className="col-lg-6">
-                <div className="col-lg-6 order-1 order-lg-2 hero-img">
-                  <img
-                    src={mind}
-                    style={{ width: 1350 }}
-                    className="img-fluid"
-                    alt="mind"
-                  />
-                </div>
-              </div>
-              <div className="col-lg-6 pt-4 pt-lg-0">
-                <p>
-                  Welcome to AVINX(Advanced Interracial Network Experience), a
-                  place where you can take the first step towards improving your
-                  health. But in this case we are focusing on your mental health
-                  with the help of artificial intelligence. Our mission is to
-                  make therapy accessible and affordable to everyone by using
-                  the latest AI technology.
-                </p>
+            <div className="section-title">
+              <h2> A living testimony </h2>
+              <p>
+                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                Quia fugiat sit in iste officiis commodi quidem hic quas.
+              </p>
+            </div>
 
-                <p className="fst-italic">
-                  Our AI therapists are programmed to assist you with a range of
-                  mental health concerns, including anxiety, depression, stress
-                  and relationship issues. At Avinx, we are committed to
-                  providing you with a personalized experience. Take the first
-                  step towards improving your mental health today by signing up
-                  for our AI therapy platform. Let our AI therapists help you
-                  navigate life's challenges and achieve your goals. The name of
-                  our AI therapists is AVA(Avinx Virtual Assistant).
-                </p>
+            <div className="row no-gutters">
+              <div className="col-lg-4 box">
+                <h3>Free</h3>
+                <h4>
+                  $0<span>per month</span>
+                </h4>
+                <ul>
+                  <li>
+                    <i className="bx bx-check"></i> Quam adipiscing vitae proin
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Nec feugiat nisl pretium
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Nulla at volutpat diam
+                    uteera
+                  </li>
+                  <li className="na">
+                    <i className="bx bx-x"></i>{" "}
+                    <span>Pharetra massa massa ultricies</span>
+                  </li>
+                  <li className="na">
+                    <i className="bx bx-x"></i>{" "}
+                    <span>Massa ultricies mi quis hendrerit</span>
+                  </li>
+                </ul>
+                <a href="#" className="btn-buy">
+                  Get Started
+                </a>
+              </div>
+
+              <div className="col-lg-4 box featured">
+                <h3>Business</h3>
+                <h4>
+                  $29<span>per month</span>
+                </h4>
+                <ul>
+                  <li>
+                    <i className="bx bx-check"></i> Quam adipiscing vitae proin
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Nec feugiat nisl pretium
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Nulla at volutpat diam
+                    uteera
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Pharetra massa massa
+                    ultricies
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Massa ultricies mi quis
+                    hendrerit
+                  </li>
+                </ul>
+                <a href="#" className="btn-buy">
+                  Get Started
+                </a>
+              </div>
+
+              <div className="col-lg-4 box">
+                <h3>Developer</h3>
+                <h4>
+                  $49<span>per month</span>
+                </h4>
+                <ul>
+                  <li>
+                    <i className="bx bx-check"></i> Quam adipiscing vitae proin
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Nec feugiat nisl pretium
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Nulla at volutpat diam
+                    uteera
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Pharetra massa massa
+                    ultricies
+                  </li>
+                  <li>
+                    <i className="bx bx-check"></i> Massa ultricies mi quis
+                    hendrerit
+                  </li>
+                </ul>
+                <a href="#" className="btn-buy">
+                  Get Started
+                </a>
               </div>
             </div>
           </div>
-        </header>
+        </section>
 
-        <section id="faq" class="faq">
+        <section id="faq" className="faq">
           <div class="container">
             <div class="section-title">
               <h2>Frequently Asked Questions</h2>
