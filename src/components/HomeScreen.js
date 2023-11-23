@@ -251,104 +251,47 @@ function HomeScreen() {
         <section id="pricing" className="pricing">
           <div className="container">
             <div className="section-title">
-              <h2> A living testimony </h2>
-              <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
-              </p>
+              <h2 style={{ color: "black" }}> A living testimony </h2>
             </div>
 
             <div className="row no-gutters">
               <div className="col-lg-4 box">
-                <h3>Free</h3>
-                <h4>
-                  $0<span>per month</span>
-                </h4>
+                <h3> Testimony </h3>
                 <ul>
-                  <li>
-                    <i className="bx bx-check"></i> Quam adipiscing vitae proin
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li className="na">
-                    <i className="bx bx-x"></i>{" "}
-                    <span>Pharetra massa massa ultricies</span>
-                  </li>
-                  <li className="na">
-                    <i className="bx bx-x"></i>{" "}
-                    <span>Massa ultricies mi quis hendrerit</span>
-                  </li>
+                  <p>
+                    “There are different ways God has demonstrated his love
+                    toward me, i remember when i was sick and i thought it was
+                    all over and God came and healed me even when i don't
+                    deserve to be loved God still show me that he cares for me
+                    when i had no meaning he came through for me he came and
+                    pick me up and said daughter am with you he gave me a reason
+                    to live again.”
+                  </p>
                 </ul>
-                <a href="#" className="btn-buy">
-                  Get Started
-                </a>
               </div>
 
               <div className="col-lg-4 box featured">
-                <h3>Business</h3>
-                <h4>
-                  $29<span>per month</span>
-                </h4>
+                <h3> Our Plan Is Not The Plan Of God </h3>
                 <ul>
-                  <li>
-                    <i className="bx bx-check"></i> Quam adipiscing vitae proin
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Pharetra massa massa
-                    ultricies
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Massa ultricies mi quis
-                    hendrerit
-                  </li>
+                  “I remembered when i was seeking for admission and almost all
+                  my friends we graduated together from secondary school has
+                  gain admission and i was still at home looking up to God to
+                  provide one for me at that time i was planning to go to a
+                  particular school but i did not know that the plan God had for
+                  me was totally different from the one i had for myself
+                  sometime is just good to let God lead you.”
                 </ul>
-                <a href="#" className="btn-buy">
-                  Get Started
-                </a>
               </div>
 
               <div className="col-lg-4 box">
-                <h3>Developer</h3>
-                <h4>
-                  $49<span>per month</span>
-                </h4>
+                <h3> God of provision </h3>
                 <ul>
-                  <li>
-                    <i className="bx bx-check"></i> Quam adipiscing vitae proin
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Nec feugiat nisl pretium
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Nulla at volutpat diam
-                    uteera
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Pharetra massa massa
-                    ultricies
-                  </li>
-                  <li>
-                    <i className="bx bx-check"></i> Massa ultricies mi quis
-                    hendrerit
-                  </li>
+                  “God has been so good to me and my family even before i pray
+                  for something God is always ready to answer no matter how big
+                  is the situation I found myself once I pray and believe, God
+                  in his miraculous ways will always provide solution to
+                  whatever challenges am facing. ”
                 </ul>
-                <a href="#" className="btn-buy">
-                  Get Started
-                </a>
               </div>
             </div>
           </div>
@@ -357,7 +300,7 @@ function HomeScreen() {
         <section id="faq" className="faq">
           <div class="container">
             <div class="section-title">
-              <h2>Frequently Asked Questions</h2>
+              <h2 style={{ color: "black" }}>Frequently Asked Questions</h2>
             </div>
 
             <ul class="faq-list">
@@ -367,16 +310,16 @@ function HomeScreen() {
                   class="collapsed question"
                   href="#faq1"
                 >
-                  Non consectetur a erat nam at lectus urna duis?{" "}
+                  What kind of magazines does God Of Wonders produce?
                   <i class="bi bi-chevron-down icon-show"></i>
                   <i class="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq1" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
-                    volutpat lacus laoreet non curabitur gravida. Venenatis
-                    lectus magna fringilla urna porttitor rhoncus dolor purus
-                    non.
+                    God Of Wonders produces a wide range of magazines, including
+                    lifestyle magazines, fashion magazines, business magazines,
+                    and more. We specialize in creating high-quality
+                    publications that are both informative and engaging.
                   </p>
                 </div>
               </li>
@@ -387,17 +330,18 @@ function HomeScreen() {
                   href="#faq2"
                   class="collapsed question"
                 >
-                  Feugiat scelerisque varius morbi enim nunc faucibus a
-                  pellentesque? <i class="bi bi-chevron-down icon-show"></i>
+                  What sets God Of Wonders apart from other magazine production
+                  companies? <i class="bi bi-chevron-down icon-show"></i>
                   <i class="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq2" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque
-                    habitant morbi. Id interdum velit laoreet id donec ultrices.
-                    Fringilla phasellus faucibus scelerisque eleifend donec
-                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
-                    ultrices eros in cursus turpis massa tincidunt dui.
+                    At God Of Wonders, we pride ourselves on our attention to
+                    detail and our commitment to excellence. We don't just
+                    create magazines, we create works of art that are designed
+                    to captivate and inspire. We work closely with our clients
+                    to ensure that every aspect of their publication is perfect,
+                    from the content to the layout to the printing.
                   </p>
                 </div>
               </li>
@@ -408,18 +352,19 @@ function HomeScreen() {
                   href="#faq3"
                   class="collapsed question"
                 >
-                  Dolor sit amet consectetur adipiscing elit pellentesque
-                  habitant morbi? <i class="bi bi-chevron-down icon-show"></i>
+                  How can I get started with God Of Wonders?{" "}
+                  <i class="bi bi-chevron-down icon-show"></i>
                   <i class="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq3" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
-                    nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                    pellentesque eu tincidunt. Lectus urna duis convallis
-                    convallis tellus. Urna molestie at elementum eu facilisis
-                    sed odio morbi quis
+                    Getting started with God Of Wonders is easy. Simply contact
+                    us to discuss your project and we'll help you every step of
+                    the way. We'll work with you to develop a customized plan
+                    that meets your specific needs, from concept development to
+                    design to production and distribution. We're here to help
+                    you create a magazine that stands out from the crowd and
+                    makes an impact.
                   </p>
                 </div>
               </li>
@@ -430,61 +375,16 @@ function HomeScreen() {
                   href="#faq4"
                   class="collapsed question"
                 >
-                  Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?{" "}
+                  How can I request a quote for a magazine production project?
                   <i class="bi bi-chevron-down icon-show"></i>
                   <i class="bi bi-chevron-up icon-close"></i>
                 </div>
                 <div id="faq4" class="collapse" data-bs-parent=".faq-list">
                   <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque
-                    habitant morbi. Id interdum velit laoreet id donec ultrices.
-                    Fringilla phasellus faucibus scelerisque eleifend donec
-                    pretium. Est pellentesque elit ullamcorper dignissim. Mauris
-                    ultrices eros in cursus turpis massa tincidunt dui.
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  data-bs-toggle="collapse"
-                  href="#faq5"
-                  class="collapsed question"
-                >
-                  Tempus quam pellentesque nec nam aliquam sem et tortor
-                  consequat? <i class="bi bi-chevron-down icon-show"></i>
-                  <i class="bi bi-chevron-up icon-close"></i>
-                </div>
-                <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Molestie a iaculis at erat pellentesque adipiscing commodo.
-                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
-                    viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                    bibendum est. Purus gravida quis blandit turpis cursus in
-                  </p>
-                </div>
-              </li>
-
-              <li>
-                <div
-                  data-bs-toggle="collapse"
-                  href="#faq6"
-                  class="collapsed question"
-                >
-                  Tortor vitae purus faucibus ornare. Varius vel pharetra vel
-                  turpis nunc eget lorem dolor?{" "}
-                  <i class="bi bi-chevron-down icon-show"></i>
-                  <i class="bi bi-chevron-up icon-close"></i>
-                </div>
-                <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                  <p>
-                    Laoreet sit amet cursus sit amet dictum sit amet justo.
-                    Mauris vitae ultricies leo integer malesuada nunc vel.
-                    Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate
-                    eu scelerisque. Pellentesque diam volutpat commodo sed
-                    egestas egestas fringilla phasellus faucibus. Nibh tellus
-                    molestie nunc non blandit massa enim nec.
+                    To request a quote for a magazine production project, please
+                    visit our website and fill out the contact form or call our
+                    office directly. Our team will be happy to discuss your
+                    requirements and provide you with a customized quote.
                   </p>
                 </div>
               </li>
@@ -492,56 +392,127 @@ function HomeScreen() {
           </div>
         </section>
 
+        {/* Contact section */}
         <header id="contact" className="contact section-bg">
-          <div className="container">
-            <div className="section-title">
-              <h2>Contact</h2>
-              <p>
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-                ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-                quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                Quia fugiat sit in iste officiis commodi quidem hic quas.
-              </p>
-            </div>
+          <section id="contact" class="contact section-bg">
+            <div class="container">
+              <div class="section-title">
+                <h2 style={{ color: "black" }}> Contact Us </h2>
+                <p style={{ color: "grey" }}>
+                  Have a question, need assistance? We're just a message away!
+                </p>
+              </div>
 
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="row">
-                  <div className="col-md-12">
-                    <div className="info-box">
-                      <i className="bx bx-map"></i>
-                      <h3>Our Address</h3>
-                      <p>A108 Adam Street, New York, NY 535022</p>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="info-box">
+                        <i class="bx bx-map"></i>
+                        <h3>Our Address</h3>
+                        <p>Lagos, LA,</p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="info-box mt-4">
-                      <i className="bx bx-envelope"></i>
-                      <h3>Email Us</h3>
-                      <p>
-                        info@example.com
-                        <br />
-                        contact@example.com
-                      </p>
+                    <div class="col-md-6">
+                      <div class="info-box mt-4">
+                        <i class="bx bx-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p> contactus@godofwonders.com </p>
+                      </div>
                     </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="info-box mt-4">
-                      <i className="bx bx-phone-call"></i>
-                      <h3>Call Us</h3>
-                      <p>
-                        +1 5589 55488 55
-                        <br />
-                        +1 6678 254445 41
-                      </p>
+                    <div class="col-md-6">
+                      <div class="info-box mt-4">
+                        <i class="bx bx-phone-call"></i>
+                        <h3>Call Us</h3>
+                        <p> +1 (551) 318-6259 </p>
+                      </div>
                     </div>
                   </div>
                 </div>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                  <form
+                    action="forms/contact.php"
+                    method="post"
+                    role="form"
+                    class="php-email-form"
+                  >
+                    <div class="row">
+                      <div class="form-group mt-3">
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          id="name"
+                          placeholder="Your Name *"
+                          required
+                        />
+                      </div>
+                    </div>
+                    <div class="form-group mt-3">
+                      <input
+                        type="text"
+                        class="form-control"
+                        name="email"
+                        id="email"
+                        placeholder="Your Email * "
+                        required
+                      />
+                    </div>
+                    <div class="form-group mt-3">
+                      <textarea
+                        class="form-control"
+                        name="message"
+                        rows="5"
+                        placeholder="Message *"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">
+                        Your message has been sent. Thank you!
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <button type="submit">Send Message</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
-          </div>
+          </section>
         </header>
       </main>
+
+      {/* Footer */}
+      <footer id="footer">
+        <div className="container d-md-flex py-4">
+          <div className="me-md-auto text-center text-md-start">
+            <div className="copyright">
+              &copy; Copyright{" "}
+              <strong>
+                <span> God of wonders </span>
+              </strong>
+              . All Rights Reserved
+            </div>
+          </div>
+          <div className="social-links text-center text-md-right pt-3 pt-md-0">
+            <a href="#" className="facebook">
+              <i className="bx bxl-facebook"></i>
+            </a>
+
+            <a href="#" className="twitter">
+              <i className="bx bxl-twitter"></i>
+            </a>
+
+            <a href="#" className="instagram">
+              <i className="bx bxl-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
